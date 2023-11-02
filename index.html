@@ -1,14 +1,31 @@
-<!DOCTYPE html>
+
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokedex</title>
+
+    <style>
+        h1 {
+            color: red;
+        }
+        h1 {
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
 
-    <h1>Teste</h1>
+    <h1>Meu primeiro site</h1>
+    <p>Meu primeiro site está sendo feito na Dio.me</p>
+    <button id="btnTeste" type="button" >teste</button>
 
 
+    <script>
+        const btnTeste = document.getElementById("btnTeste");
+        btnTeste.addEventListener("click", function () {
+            console.log("clicou");
+        } )
+    </script>
 </body>
 </html>
